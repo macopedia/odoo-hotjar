@@ -1,0 +1,26 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+
+    <record model="ir.ui.view" id="website_hotjar_form_view">
+      <field name="name">website_hotjar_form_view</field>
+      <field name="model">website</field>
+      <field name="inherit_id" ref="website.view_website_form"/>
+      <field name="arch" type="xml">
+
+          <xpath expr="//page[last()]" position="after">
+            <page string="External services" name="tab_external_services" groups="base.group_no_one">
+              <group string="Hotjar">
+                <field name="hotjar_active" />
+                <field name="hotjar_site_id" attrs="{'invisible': [('hotjar_active', '=', False)]}"/>
+
+              </group>
+            </page>
+
+          </xpath>
+
+      </field>
+    </record>
+
+  </data>
+</odoo>
