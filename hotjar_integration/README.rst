@@ -18,8 +18,9 @@ you click "Verify Installation" during Hotjar installation.
 Contributors
 ------
 * Andrzej Preibisz <a.preibisz@macopedia.com>
-
+* Marcin Pieczyński <m.pieczynski@macopedia.com>
 Maintainer
 -----
 
-This module is maintained by Macopedia.
+This module is maintained by Macopedia_.
+ .. _Macopedia: https://macopedia.c
