@@ -25,6 +25,7 @@
         'views/website.xml',
         'views/website_templates.xml',
     ],
+    'images': ['static/description/banner.jpg'],
     'installable': True,
     'auto_install': False,
 }
